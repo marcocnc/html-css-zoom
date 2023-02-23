@@ -26,8 +26,20 @@ main{
     display: flex;
 }
 
+.jc-space-b{
+    justify-content: space-between;
+}
+
+.ai-center{
+    align-items: center;
+}
+
 .f-wrap{
     flex-wrap: wrap;
+}
+
+.p-right5{
+    padding-right: 5px;
 }
 
 .p-right10{
@@ -93,5 +105,15 @@ main{
 /* Menu Bottom */
 .menu-bottom{
     height: 120px;
+    color: white;
     background-color: orange;
+    padding: 10px;
+}
+
+.function .icon{
+    font-size: 30px;
+}
+
+.fa-angle-up{
+    font-size: 12px;
 }
