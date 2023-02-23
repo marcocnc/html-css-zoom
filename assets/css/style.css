@@ -9,9 +9,10 @@ body{
 }
 
 main{
-    height: calc(100vh / 180px);
+    height: calc(100vh - 180px);
     padding: 50px;
-    background-color: yellow;
+    overflow: auto;
+    background-color: #000000;
 }
 
 .container{
@@ -41,8 +42,6 @@ main{
     position: relative;
     width: calc(100% / 7);
     padding: 5px;
-    background-color: blue;
-    border: 1px solid black;
 }
 
 .image img{
@@ -52,10 +51,12 @@ main{
 
 .name{
     position: absolute;
-    bottom: 10px;
+    bottom: 8px;
     left: 5px;
     color: white;
     background-color: rgba(0, 0, 0,.3);
+    padding: 2px;
+    font-size: 14px;
     text-transform: capitalize;
 }
 
