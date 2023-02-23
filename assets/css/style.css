@@ -9,7 +9,7 @@ body{
 }
 
 main{
-    height: calc(100vh - 180px);
+    height: calc(100vh - 210px);
     padding: 50px;
     overflow: auto;
     background-color: #000000;
@@ -71,6 +71,7 @@ main{
     position: relative;
     width: calc(100% / 7);
     padding: 5px;
+    min-width: 150px;
 }
 
 .image img{
@@ -91,6 +92,6 @@ main{
 
 /* Menu Bottom */
 .menu-bottom{
-    height: 90px;
+    height: 120px;
     background-color: orange;
 }
