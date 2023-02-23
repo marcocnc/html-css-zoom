@@ -30,12 +30,41 @@ main{
     flex-wrap: wrap;
 }
 
+.p-right10{
+    padding-right: 10px;
+}
+
+.p-right15{
+    padding-right: 15px;
+}
+
+.m-right10{
+    margin-right: 10px;
+}
+
+.m-right15{
+    margin-right: 15px;
+}
+
+
 /* Menu Top */
 .menu-top{
     height: 90px;
-    background-color: red;
+    background-color: #000000;
+    text-align: right;
+    padding-top: 5px;
 }
 
+.options button{
+    color:white;
+    background-color: #4A4A4A;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
 /* Main */
 
 .user{
