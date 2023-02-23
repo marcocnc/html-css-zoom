@@ -116,6 +116,7 @@ main{
     height: 120px;
     color: white;
     background-color: #222222;
+    padding-left: 20px;
 }
 
 .menu-bottom span{
