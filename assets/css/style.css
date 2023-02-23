@@ -22,6 +22,11 @@ main{
 }
 
 /* Utilities */
+
+.d-block{
+    display:block;
+}
+
 .d-flex{
     display: flex;
 }
@@ -36,6 +41,10 @@ main{
 
 .f-wrap{
     flex-wrap: wrap;
+}
+
+.p-left10{
+    padding-left: 10px;
 }
 
 .p-right5{
@@ -106,14 +115,65 @@ main{
 .menu-bottom{
     height: 120px;
     color: white;
-    background-color: orange;
-    padding: 10px;
+    background-color: #222222;
 }
 
-.function .icon{
+.menu-bottom span{
+    font-size: 14px;
+}
+
+.icon, .options, .freccia, .end-button button{
+    cursor: pointer;
+}
+
+.function i,
+.other i{
     font-size: 30px;
 }
 
-.fa-angle-up{
+.icon span{
+    transform:translate(-25%);
+    padding-top: 5px;
+}
+
+.function .freccia,
+.other .freccia{
     font-size: 12px;
+    display: flex;
+    align-self: center;
+    padding-right: 30px;
+}
+
+
+#manage{
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+#group{
+    transform: translate(50px);
+    font-size: 26px;
+}
+
+#groupdesc{
+    transform: translate(0, 4px);
+}
+
+#green{
+    color: #4BC800;
+}
+
+#grid{
+    transform: translate(15px);
+}
+
+#more{
+    transform: translate(-5px);
+}
+
+.end-button button{
+    padding: 52px 10px;
+    color: #D72819;
+    background-color: #4A4A4A;
+    border: none;
 }
