@@ -112,69 +112,48 @@ main{
 }
 
 /* Menu Bottom */
-.menu-bottom{
+.bottom{
     height: 120px;
     color: white;
     background-color: #222222;
-    padding-left: 20px;
+    align-items: center;
+    font-size: 0.85rem;
+    flex-shrink: 0;
 }
 
-.menu-bottom span{
-    font-size: 14px;
-}
 
-.icon, .options, .freccia, .end-button button{
+
+.bottom .icon{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
     cursor: pointer;
 }
 
-.function i,
-.other i{
-    font-size: 30px;
+.bottom .icon i{
+    margin-bottom: 5px;
+    
 }
 
-.icon span{
-    transform:translate(-25%);
-    padding-top: 5px;
+i.freccia{
+    font-size: 0.85rem;
 }
 
-.function .freccia,
-.other .freccia{
-    font-size: 12px;
-    display: flex;
-    align-self: center;
-    padding-right: 30px;
+.bottom .icon.active i{
+    color: lightgreen;
 }
 
-
-#manage{
-    padding-left: 5px;
-    padding-right: 20px;
+.bottom-right{
+    height: 100%;
 }
 
-#group{
-    transform: translate(50px);
-    font-size: 26px;
-}
-
-#groupdesc{
-    transform: translate(0, 4px);
-}
-
-#green{
-    color: #4BC800;
-}
-
-#grid{
-    transform: translate(15px);
-}
-
-#more{
-    transform: translate(-5px);
-}
-
-.end-button button{
-    padding: 52px 10px;
+.bottom-right button{
+    height: 100%;
     color: #D72819;
     background-color: #4A4A4A;
     border: none;
-}
+    padding: 0 15px;
+} 
+
+
